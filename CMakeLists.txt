@@ -7,3 +7,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(daa_bonus src/main.cpp)
 target_include_directories(daa_bonus PRIVATE include)
+
+add_executable(benchmark src/benchmark.cpp)
+target_include_directories(benchmark PRIVATE include)
